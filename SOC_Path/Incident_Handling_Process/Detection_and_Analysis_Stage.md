@@ -28,8 +28,8 @@ Now that you have all this information you are better equipped to handle the inc
 You can start building a timeline of the incident, this will keep everything organized and give you a better idea of the big picture. Listing everything in the time that they happened you can see how other events are related or you can find that it is unrealted and need to look somewhere else. Below is an example of what should be documented:
 
 |**Date**|**Time of the event**|**Hostname**|**Event Description**|**Data Source**|<br>
-|----|----|----|----|----|<br>
-|08-10-2024|14:13UTC|SQLServer01|Hacker tool 'Mimikatz' was detected|Antivirus Software|<br>
+|-----|-----|-----|-----|-----|<br>
+|08-10-2024|14:13UTC|SQLServer01|Hacker tool 'Mimikatz' was detected|Antivirus Software|
 
 ## Incident Severity and Extent Questions
 
