@@ -29,7 +29,7 @@ You can start building a timeline of the incident, this will keep everything org
 
 |**Date**|**Time of the event**|**Hostname**|**Event Description**|**Data Source**|<br>
 |----|----|----|----|----|<br>
-|08-10-2024|14:13UTC|SQLServer01|Hacker tool 'Mimikatz' was detected|Antivirus Software|
+|08-10-2024|14:13UTC|SQLServer01|Hacker tool 'Mimikatz' was detected|Antivirus Software|<br>
 
 ## Incident Severity and Extent Questions
 
