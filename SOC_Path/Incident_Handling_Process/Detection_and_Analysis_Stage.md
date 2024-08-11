@@ -21,11 +21,11 @@ Security professionals need to do an initial investigation when an incident is d
 * What was the incident
 * List of impacted systems
 * Who accessed the impacted system and what actions were taken
-* Physical location, OS, IP address, hostname, system owner, systems's purpose, and current state of the system
+* Physical location, OS, IP address, hostname, system owner, system’s purpose, and current state of the system
 * If malware is detected the list of IPs, time and date of detection, type of malware, systems impacted, export of the malicious files with their hashes
 
 Now that you have all this information you are better equipped to handle the incident at hand, you will be able to take the appropriate actions given the incident.<br>
-You can start building a timeline of the incident, this will keep everything organized and give you a better idea of the big picture. Listing everything in the time that they happened you can see how other events are related or you can find that it is unrealted and need to look somewhere else. Below is an example of what should be documented:
+You can start building a timeline of the incident, this will keep everything organized and give you a better idea of the big picture. Listing everything in the time that they happened you can see how other events are related or you can find that it is unrelated and need to look somewhere else. Below is an example of what should be documented:
 
 |**Date**|**Time of the event**|**Hostname**|**Event Description**|**Data Source**|<br>
 |-----|-----|-----|-----|-----|-----|
@@ -49,23 +49,23 @@ Incidents need to kept to a need to know basis, unless there are laws, regulatio
 
 ## The Investigation
 
-The investigation starts with the limited information that was gathered when it was first deteted. With this information the incident response team begins the cyclic 3 step process:
+The investigation starts with the limited information that was gathered when it was first detected. With this information the incident response team begins the cyclic 3 step process:
 * Creation and usage of indicators of compromise (IOC)
 * Identification of new leads and impacted machines
 * Data collection and analysis from the new leads
-Once you get get done with the third step you go back to the beginning
+Once you get done with the third step you go back to the beginning
 
 ### Initial Investigation Data
 
-The incident response team should follow where the leads are taking them and not jump to conclusions. They should take the the intial information gathered to guide them and then keep updating the leads throughout the investigation
+The incident response team should follow where the leads are taking them and not jump to conclusions. They should take the initial information gathered to guide them and then keep updating the leads throughout the investigation
 
 ### Creation and Usage of IOCs
 
-IOCs are documented in a structured manner and they are so important that there are languages, like OpenIOC, that have been developed to document them in a standardized way. Yara is also another language developed for IOCs. You can use Mandiant's IOC Editor to create or edit IOCs. In order to take advantage of those langauges by deploying an IOC-obtaining/IOC-searching tool.
+IOCs are documented in a structured manner and they are so important that there are languages, like OpenIOC, that have been developed to document them in a standardized way. Yara is also another language developed for IOCs. You can use Mandiant's IOC Editor to create or edit IOCs. In order to take advantage of those languages by deploying an IOC-obtaining/IOC-searching tool.
 
 ### Identification of New Leads and Impacted Systems
 
-After searching for IOCs you will get some hits to see what systems are showing the same signs of the compromise. You could get some false positives and you need to be able to eliminate those. You could also get a lot of hits and in that case you need to prioritize the systems that are critial for the organization
+After searching for IOCs you will get some hits to see what systems are showing the same signs of the compromise. You could get some false positives and you need to be able to eliminate those. You could also get a lot of hits and in that case you need to prioritize the systems that are critical for the organization
 
 ### Data Collection and Analysis From the New Leads and Impacted Systems
 
