@@ -32,6 +32,7 @@ Each event in the Windows Event Log contains several key components:
 * **9. Logged**: The date and time when the event was logged
 * **10. Computer**: The name of the computer where the event took place
 * **11. XML Data**: The event data, also available in XML format for detailed analysis
+
 The Keywords field is particularly valuable for filtering and refining search queries, allowing for more efficient log management<br>
 For example, when examining an error event, the Event ID and Source (e.g., "SideBySide") provide specific information about the error, which can be further explored using Microsoft's documentation. Detailed descriptions and XML views offer rich context and additional data, such as the process ID, aiding in precise analysis<br>
 Switching to Security logs, consider Event ID 4624, which records the creation of a logon session. This event log contains critical details such as the Logon ID, which can be correlated with other events, and the Logon Type, indication the nature of the logon (e.g., a service initiated by "SYSTEM"). Further investigation may be needed to identify the specific service involved, using correlation techniques with additional data points like the Logon ID
